@@ -59,7 +59,7 @@ void BFS()
 				// 방문되어져 있는 경우
 				if (visit[next_x][next_y] == 1) continue;
 
-				// 벽이면서, 부쉬고 들어간 적이 있는 경우
+				// 벽이면서, 벽을 부시고 들어간 적이 있는 경우
 				if (visit[next_x][next_y] == 2 && cur_Crash) continue;
 
 				// 가려는 곳이 벽인 경우
